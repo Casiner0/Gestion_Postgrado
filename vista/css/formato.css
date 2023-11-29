@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+.cabecera {
+  	height: 259px;
+    background-color:#e5e7e7;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+  
+.fondo_cabecera{
+	width: 1140px;
+	height: 259px;	
+	background-image:url(../img/postgrado_lg.jpg);	
+	background-position: right;
+}
+
+.text_cabecera{
+	padding-right:15px;
+	padding-left:15px;
+	padding-top: 92px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.btn_oculto{
+	border: none;
+	background-color: transparent;
+}
+
+.btn_oculto:focus{
+	outline: 0;
+}
+
+.reset{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 40px;
+}
+
+.separacion{
+	padding-left: 40px;
+	padding-right: 40px;
+	
+}
+
+.oculto {
+	display: none;
+}
+
+.alerta_login{
+  	width: 100%;
+  	max-width: 200px;
+  	box-shadow: 0 0 10px rgba(0,0,0,0.3);	
+  	background-color: #fd5d5d;
+  	margin-right: auto;
+  	margin-left: auto;
+  	margin-top: 10px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 1px;
+	position: relative;
+	border-radius: 55px;
+}
+
+.alerta{
+  	width: 100%;
+  	max-width: 200px;
+  	box-shadow: 0 0 10px rgba(0,0,0,0.3);	
+  	background-color: #a8c836;
+  	margin: auto;
+	padding: 5px 10px 5px 10px;
+	position: absolute;
+	border-radius: 5px;
+}
+
+.tabla_sm {
+	width: 250px;
+}
+
+.tabla_md {
+	width: 540px;
+}
+
+.ui-autocomplete {
+	box-shadow:  0 0 10px rgba(0,0,0,0.3);
+	border-radius: 0 0 5px 5px;
+}
